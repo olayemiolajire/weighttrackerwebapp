@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A weight tracking website"> 
+    <meta name="keywords" content="Weight tracker app, Weight tracking website, Online weight tracker, weight loss, weight loss monitoring, prinzyemmyweighttracker.com">
+    <meta name="author" content="Olayemi Olajire">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="weight tracker.css">
+    <title>Prinzyemmy's weight tracking website</title>
+</head>
+<body>
+    <h3>Weight tracking website</h3>
+    <h2 id="firsth2">Welcome to the number one weight tracking website</h2>
+    <p id="firstp1">....we help you keep fit and healthy by helping you track your weight </p>
+   <div class="namediv">
+    <span class="firstnamespan">Firstname:</span><span class="astspan">*</span> <input type="text" placeholder="Firstname" required>
+    <span class="lastnamespan">Lastname:</span><span class="astspan">*</span> <input type="text" name="" id="" placeholder="Lastname" required>
+    <button type="submit" id="subbtn">Submit</button>
+   </div>
+    <br> <br>
+    <div class="gendiv">
+    <div class="firstdiv">
+    <label for="startingweight" class="startweight">Starting Weight:</label>
+    <input type="number" name="startingweight" id="startweight" placeholder="Starting Weight" required> <span class="firstweightspan weightspan">Kg</span> <br> <br>
+    <label for="startdate" class="startdate">Start Date:</label> <input type="date" name="startdate" id="startdate">
+    <br> <br>
+    <label for="targetweightloss" class="targetweight">Target Weight Loss:</label> <input type="number" name="targetweightloss" id="targetweight" placeholder="e.g 20Kg"> <span class="secondweightspan weightspan">Kg</span>
+    </div>
+    <br>
+    <div class="seconddiv">
+    <label for="goalweight">Target Weight:</label> <input type="number" name="goalweight" id="goalweight" placeholder="e.g 70Kg"> <span class="thirdweightspan weightspan">Kg</span>
+    <br> <br>
+    <label for="targetdate">Target Date:</label> <input type="date" name="targetdate" id="targetdate">
+    <br> <br>
+    <label for="weeklytarget">Weekly Weight Loss Target:</label> <input placeholder="e.g 0.5 - 1" type="number" name="weeklytarget" id="weeklytarget" > <span class="fourthweightspan weightspan">Kg</span>
+    </div>
+    </div>
+    <br>
+    <table>
+        <caption>Weight Tracker Chart</caption>
+        <thead>
+            <tr>
+                <th>Week</th>
+                <th>Weigh-in Date</th>
+                <th>Weight (Kg)</th>
+                <th>Target Weight (Kg)</th>
+                <th>Weight Difference (Kg)</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><input type="number" value="1"></td>
+                <td><input type="date" name="" id=""></td>
+                <td><input type="number" name="" id=""></td>
+                <td><input type="number" name="" id=""></td>
+                <td><input type="number" name="" id=""></td>
+            </tr>
+            <tr>
+                <td><input type="number" value="2"></td>
+                <td><input type="date" name="" id=""></td>
+                <td><input type="number" name="" id=""></td>
+                <td><input type="number" name="" id=""></td>
+                <td><input type="number" name="" id=""></td>
+            </tr>
+            <tr>
+                <td><input type="number" value="3"></td>
+                <td><input type="date" name="" id=""></td>
+                <td><input type="number" name="" id=""></td>
+                <td><input type="number" name="" id=""></td>
+                <td><input type="number" name="" id=""></td>
+            </tr>
+            <tr>
+                <td><input type="number" value="4"></td>
+                <td><input type="date" name="" id=""></td>
+                <td><input type="number" name="" id=""></td>
+                <td><input type="number" name="" id=""></td>
+                <td><input type="number" name="" id=""></td>
+            </tr>
+            <tr>
+                <td><input type="number" value="5"></td>
+                <td><input type="date" name="" id=""></td>
+                <td><input type="number" name="" id=""></td>
+                <td><input type="number" name="" id=""></td>
+                <td><input type="number" name="" id=""></td>
+            </tr>
+        </tbody>
+        
+    </table>
+    
+    <button id="addbutton">Add</button> <button id="delbutton">Delete</button>
+    <h4>Weight Tracking Chart</h4>
+    <div class="lastdiv" id="lastdiv">
+               <span class="firstspan">Week: </span> <input type="number" value="1"> 
+                <span class="firstspan">Weigh-in Date:</span> <input type="date" name="" id="">
+                <span class="firstspan">Weight:</span> <input type="number" name="" id=""><span class="lastspan">Kg</span>
+                <span class="firstspan">Target Weight: </span><input type="number" name="" id=""><span class="lastspan">Kg</span>
+                <span class="firstspan">Weight Difference: </span><input type="number" name="" id=""><span class="lastspan">Kg</span>
+    </div>
+     <button id="addbtn">Add</button> <button id="delbtn">Delete</button>
+    
+</body>
+</html>

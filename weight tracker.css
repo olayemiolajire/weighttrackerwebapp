@@ -1,0 +1,403 @@
+@media only screen and (min-width: 960px) {
+    body {
+        background-image: url('bbcreelimage.jpg');
+        background-size: cover;        
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    h3, h4 {
+        display: none;
+    }
+        #firsth2 {
+            color: rgb(184, 34, 34);
+            text-align: center;
+            text-shadow: 0 1px black;
+        }
+        #firstp1 {
+            color: rgb(33, 87, 56);
+            font-weight: 500;
+            text-align: center;
+            text-shadow: 0px 1px black;
+        }
+    .gendiv {
+        margin-left: 10%;
+        margin-right: 10%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .lastdiv, #addbtn, #delbtn {
+        display: none;
+    }
+    .namediv {
+        margin-left: 24%;
+        margin-right: 10%;
+        color: rgb(6, 6, 155);
+        text-shadow: 0 1px black;
+    }
+    #subbtn {
+        margin-left: 2%;
+        position: absolute;
+        border-radius: 5px;
+        background-color: rgb(3, 3, 240);
+        border-color: transparent;
+        color: white;
+        outline: none;
+    }
+    #subbtn:hover {
+        box-shadow: 0 2px 2px 2px gray;
+    }
+    .astspan {
+        color: rgb(230, 43, 43);
+    }
+    .namediv input[type = text] {
+        border-radius: 7.5px;
+        border-color:  rgb(184, 34, 34);
+        padding-left: 3px;
+    }
+    label {
+        color: rgb(6, 6, 155);
+        text-shadow: 0 1px black;
+    }
+    .weightspan {
+        color: rgb(6, 6, 155);
+    }
+    .gendiv input {
+        border-radius: 7.5px;
+        border-color:  rgb(184, 34, 34);
+        padding-left: 3px;
+    }
+    #startweight {
+        width: 55%;   
+    }
+    #startdate {
+        width: 67%;
+    }
+    #goalweight {
+        width: 64%;
+    }
+    #targetdate {
+        width: 68.5%;
+    }
+    table {
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    #addbutton {
+        margin-left: 10%;
+        border-radius: 5px;
+        background-color: rgb(3, 3, 240);;
+        outline: none;
+        color: white;
+        border: none;
+    }
+    #addbutton:hover {
+        box-shadow: 0 2px 2px 2px gray;
+    }
+    #delbutton {
+        margin-left: 70.7%;
+        border-radius: 5px;
+        background-color: rgb(184, 34, 34);
+        outline: none;
+        color: white;
+        border: none;
+    }
+    #delbutton:hover {
+        box-shadow: 0 2px 2px 2px gray;
+    }
+    caption {
+        color:  rgb(6, 6, 155);
+        font-weight: 800;
+    }
+    th {
+        border: 2px solid rgb(184, 34, 34);
+        border-radius: 10px;
+        color: rgb(6, 6, 155);
+        background-color: white;
+    }
+    tr:nth-child(odd) input {
+        border: 2px solid rgb(6, 6, 155);
+        border-radius: 7.5px;
+        padding-left: 2px;
+        outline: none;
+        width: 98%;
+    }
+    tr:nth-child(even) input {
+        border: 2px solid rgb(184, 34, 34);
+        border-radius: 7.5px;
+        padding-left: 2px;
+        outline: none;
+        width: 98%;
+    }
+}
+@media only screen and (max-width: 959px) {
+    body {
+        background-image: url('bbcreelimage.jpg');
+        background-repeat: repeat-y;
+        background-size: cover;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+        #firsth2 {
+            color: rgb(184, 34, 34);
+            font-size: 130%;
+            text-align: center;
+            text-shadow: 0 1px black;
+        }
+        #firstp1 {
+            color: rgb(33, 87, 56);
+            font-weight: 500;
+            text-align: center;
+            font-size: 90%;
+            text-shadow: 0 1px black;
+        }
+    .gendiv {
+        width: 100%;
+        margin-left: 0%;
+        margin-right: 0%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .lastdiv, #addbtn, #delbtn {
+        display: none;
+    }
+    .namediv {
+        margin-left: 10%;
+        margin-right: 10%;
+        color: rgb(6, 6, 155);
+        text-shadow: 0 1px black;
+    }
+    #subbtn {
+        margin-left: 2%;
+        position: absolute;
+        border-radius: 5px;
+        background-color: rgb(3, 3, 240);
+        border-color: transparent;
+        color: white;
+        outline: none;
+    }
+    #subbtn:hover {
+        box-shadow: 0 2px 2px 2px gray;
+    }
+    .astspan {
+        color: rgb(230, 43, 43);
+    }
+    .namediv input[type = text] {
+        border-radius: 7.5px;
+        border-color:  rgb(184, 34, 34);
+        padding-left: 3px;
+    }
+    label {
+        color: rgb(6, 6, 155);
+        text-shadow: 0 1px black;
+    }
+    .weightspan {
+        color: rgb(6, 6, 155);
+    }
+    .gendiv input {
+        border-radius: 7.5px;
+        border-color:  rgb(184, 34, 34);
+        padding-left: 3px;
+    }
+    #startweight {
+        width: 80%;   
+    }
+    #startdate {
+        width: 87%;
+    }
+    #goalweight {
+        width: 81%;
+    }
+    #targetweight {
+        width: 77%;
+    }
+    #targetdate {
+        width: 85%;
+    }
+    #weeklytarget {
+        width: 69%;
+    }
+    table {
+        width: 100%;
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+    #addbutton {
+        margin-left: 0%;
+        border-radius: 5px;
+        background-color: rgb(3, 3, 240);;
+        outline: none;
+        color: white;
+        border: none;
+    }
+    #addbutton:hover {
+        box-shadow: 0 2px 2px 2px gray;
+    }
+    #delbutton {
+        margin-left: 85%;
+        border-radius: 5px;
+        background-color: rgb(184, 34, 34);
+        outline: none;
+        color: white;
+        border: none;
+    }
+    #delbutton:hover {
+        box-shadow: 0 2px 2px 2px gray;
+    }
+    caption {
+        color:  rgb(6, 6, 155);
+        font-weight: 800;
+    }
+    th {
+        border: 2px solid rgb(184, 34, 34);
+        border-radius: 10px;
+        color: rgb(6, 6, 155);
+        background-color: white;
+    }
+    tr:nth-child(odd) input {
+        border: 2px solid rgb(6, 6, 155);
+        border-radius: 7.5px;
+        padding-left: 2px;
+        outline: none;
+        width: 98%;
+    }
+    tr:nth-child(even) input {
+        border: 2px solid rgb(184, 34, 34);
+        border-radius: 7.5px;
+        padding-left: 2px;
+        outline: none;
+        width: 98%;
+    }
+    h3, h4 {
+        display: none;
+    }
+}
+@media only screen and (max-width: 759px) {
+    body {
+        background-image: url('bbcreelimage.jpg');
+        background-size: 100%;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+        #firsth2, #firstp1 {
+            display: none;
+        }
+        h3 {
+            display: block;
+            color: rgb(184, 34, 34);
+            text-align: center;
+            text-shadow: 0 1px black;
+        }
+    .gendiv {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .lastdiv{
+        display: block;
+    }
+    .namediv {
+        margin-left: 2%;
+        margin-right: 2%;
+        color: rgb(6, 6, 155);
+        display: flex;
+        flex-direction: column;
+        text-shadow: 0 1px black;
+    }
+    #subbtn {
+        margin-left: 40%;
+        border-radius: 5px;
+        background-color: rgb(3, 3, 240);
+        border-color: transparent;
+        color: white;
+        outline: none;
+        margin-top: 100px;
+    }
+    #subbtn:hover {
+        box-shadow: 0 2px 2px 2px gray;
+    }
+    .astspan {
+        display: none;
+    }
+    .namediv input[type = text] {
+        border-radius: 7.5px;
+        border-color:  rgb(184, 34, 34);
+        padding-left: 3px;
+    }
+    label {
+        color: rgb(6, 6, 155);
+        text-shadow: 0 1px black;
+    }
+    .weightspan {
+        color: rgb(6, 6, 155);
+    }
+    .gendiv input {
+        border-radius: 7.5px;
+        border-color:  rgb(184, 34, 34);
+        padding-left: 3px;
+    }
+    #startweight {
+        width: 90%;   
+    }
+    #startdate {
+        width: 90%;
+    }
+    #goalweight {
+        width: 90%;
+    }
+    #targetweight {
+        width: 90%;
+    }
+    #targetdate {
+        width: 90%;
+    }
+    #weeklytarget {
+        width: 90%;
+    }
+    table {
+        display: none;
+    }
+    .lastdiv input {
+        border-radius: 7.5px;
+        border-color:  rgb(184, 34, 34);
+        padding-left: 3px;
+        width: 90%;
+    }
+    .firstspan, .lastspan {
+        color: rgb(6, 6, 155);
+        text-shadow: 0 1px black;
+    }
+    #addbtn {
+        display: inline-block;
+        margin-left: 0%;
+        border-radius: 5px;
+        background-color: rgb(3, 3, 240);;
+        outline: none;
+        color: white;
+        border: none;
+    }
+    #addbtn:hover {
+        box-shadow: 0 2px 2px 2px gray;
+    }
+    #delbtn {
+        display: inline-block;
+        margin-left: 70%;
+        border-radius: 5px;
+        background-color: rgb(184, 34, 34);
+        outline: none;
+        color: white;
+        border: none;
+    }
+    #delbtn:hover {
+        box-shadow: 0 2px 2px 2px gray;
+    }
+    #delbutton, #addbutton {
+        display: none;
+    }
+    h4 {
+        display: block;
+        color: rgb(184, 34, 34);
+        text-shadow: 0 1px black;
+        text-align: center;
+    }
+}
